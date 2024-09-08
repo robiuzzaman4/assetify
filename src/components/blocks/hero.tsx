@@ -3,7 +3,7 @@ import Container from "@/components/shared/container";
 
 const Hero = () => {
   return (
-    <Container>
+    <Container className="relative">
       <div className="w-full max-w-md md:max-w-xl mx-auto py-28 grid gap-8">
         <span className="grid gap-2">
           <h1 className="text-center text-3xl sm:text-4xl font-semibold tracking-tighter">
